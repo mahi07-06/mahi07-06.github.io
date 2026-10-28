@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Project Ideas | Mahiraj Seervi</title>
+<meta name="author" content="Mahiraj Seervi">
+<meta name="description" content="Project ideas from Mahiraj Seervi in actuators, robotic hands and legged robots.">
+<meta name="keywords" content="robotics, actuator-design, legged-robots, manipulation, mechanical-design, IIT-Roorkee">
+<meta property="og:title" content="Project Ideas | Mahiraj Seervi">
+<meta property="og:description" content="Project ideas from Mahiraj Seervi in actuators, robotic hands and legged robots.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚙️</text></svg>">
+<script src="../assets/js/main.js"></script>
+</head>
+<body>
+<nav class="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="../"><b>Mahiraj</b> Seervi</a>
+    <div class="nav-right">
+      <ul class="nav-links"><li><a href="../">about</a></li><li><a href="../publications/">Publications</a></li><li><a href="../projects/">Projects</a></li><li><a href="../cv/">CV</a></li><li><a href="../portfolio/">Portfolio</a></li><li><a href="../papers-i-like/">Papers I Like</a></li><li><a href="../project-ideas/" class="active">Project Ideas</a></li></ul>
+      <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+      <button class="icon-btn menu-btn" id="menu-toggle" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</nav>
+<main class="container">
+<header class="post-header"><h1 class="post-title">Project Ideas</h1><p class="post-description">Problems I want to work on next. If any of these interest you, let's talk!</p></header>
+<article>
+<h2>✋ Robotic Hands</h2>
+<div class="idea"><h3>Compact Backdrivable Finger Actuators</h3>
+<p><strong>Motivation:</strong> Most robotic hands trade strength for size: tendon-driven fingers are light but hard to control, while geared fingers are strong but bulky and not backdrivable.</p>
+<p><strong>Approach:</strong> Apply my actuator optimization framework to miniature planetary and Wolfrom reducers sized for finger joints, targeting high torque density with transparent, backdrivable fingers.</p>
+<p><strong>Challenges:</strong> Tiny gear modules, heat in small motors, wiring through the palm</p>
+<p><strong>Potential Impact:</strong> Strong, safe hands that can sense contact through their actuators</p></div>
+<div class="idea"><h3>Underactuated Adaptive Gripper</h3>
+<p><strong>Motivation:</strong> Grasping unknown objects in warehouses needs a gripper that adapts its shape without complex control.</p>
+<p><strong>Approach:</strong> Linkage-based underactuated fingers with compliant joints, driven by a single high-torque actuator.</p>
+<p><strong>Challenges:</strong> Grasp stability, repeatability, wear</p>
+<p><strong>Potential Impact:</strong> Low-cost, robust grippers for industrial automation</p></div>
+<h2>⚙️ Advanced Actuators</h2>
+<div class="idea"><h3>Thermally Optimized Humanoid Joint Actuator</h3>
+<p><strong>Motivation:</strong> Humanoid joints hold high torques for long periods, so motors overheat long before gears fail.</p>
+<p><strong>Approach:</strong> Combine inrunner frameless motors, metal internal gearboxes and a housing designed as a heat sink, with thermal limits added to the optimizer.</p>
+<p><strong>Challenges:</strong> Thermal modeling, machining cost, sealing</p>
+<p><strong>Potential Impact:</strong> Humanoid joints that sustain higher continuous torque</p></div>
+<div class="idea"><h3>Actuator Co-Design for a Full Leg</h3>
+<p><strong>Motivation:</strong> Actuators are usually picked one joint at a time, ignoring how leg geometry changes the torque each joint needs.</p>
+<p><strong>Approach:</strong> Optimize gear ratios, motor choice and link lengths together for a target jump or gait.</p>
+<p><strong>Challenges:</strong> Large design space, accurate dynamic models</p>
+<p><strong>Potential Impact:</strong> Lighter legs that jump higher with the same motors</p></div>
+<h2>🦿 Legged Robots</h2>
+<div class="idea"><h3>Impact-Resilient Leg Transmission</h3>
+<p><strong>Motivation:</strong> Landing impacts damage gears in 3D-printed and low-cost legs.</p>
+<p><strong>Approach:</strong> Add tuned compliance or a mechanical fuse in the transmission and validate it on the monoped test bench.</p>
+<p><strong>Challenges:</strong> Keeping control bandwidth high while adding compliance</p>
+<p><strong>Potential Impact:</strong> Cheaper legged robots that survive falls</p></div>
+<hr>
+<h2>Collaboration Opportunities</h2>
+<p>I'm always happy to discuss actuator design, legged robots or robotic hands. Reach me at <a href="mailto:mahiraj_s@me.iitr.ac.in">mahiraj_s@me.iitr.ac.in</a>.</p>
+</article>
+</main>
+<footer><div class="container">© Copyright <span id="year">2026</span> Mahiraj Seervi.</div></footer>
+</body>
+</html>
