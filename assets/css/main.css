@@ -169,3 +169,13 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
 
 /* Footer */
 footer { border-top: 1px solid var(--border); margin-top: 3rem; padding: 1rem 0 2rem; text-align: center; font-size: .85rem; color: var(--muted); }
+
+/* v2: real images */
+.profile img { aspect-ratio: 1/1; }
+.gallery figure.cad img { object-fit: contain; background: #fff; }
+.awards { list-style: none; padding: 0; }
+.awards li { display: grid; grid-template-columns: 190px 1fr 60px; gap: 10px; padding: 4px 0; }
+.awards .rank { font-weight: 600; color: var(--theme); }
+.awards .yr { text-align: right; color: var(--muted); }
+@media (max-width: 560px) { .awards li { grid-template-columns: 1fr; gap: 0; padding: 6px 0; } .awards .yr { text-align: left; } }
+.subproject { margin-top: 2rem; }

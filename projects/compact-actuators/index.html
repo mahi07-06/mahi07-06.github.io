@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Compact Actuators for Legged & Humanoid Robots | Mahiraj Seervi</title>
+<meta name="author" content="Mahiraj Seervi">
+<meta name="description" content="Automated design of internal planetary and Wolfrom actuators, a metal humanoid-joint actuator and a monoped test bench">
+<meta name="keywords" content="robotics, actuator-design, legged-robots, manipulation, mechanical-design, IIT-Roorkee">
+<meta property="og:title" content="Compact Actuators for Legged & Humanoid Robots | Mahiraj Seervi">
+<meta property="og:description" content="Automated design of internal planetary and Wolfrom actuators, a metal humanoid-joint actuator and a monoped test bench">
+<meta property="og:image" content="https://mahi07-06.github.io/assets/img/prof_pic.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="../../assets/css/main.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚙️</text></svg>">
+<script src="../../assets/js/main.js"></script>
+</head>
+<body>
+<nav class="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="../../"><b>Mahiraj</b> Seervi</a>
+    <div class="nav-right">
+      <ul class="nav-links"><li><a href="../../">about</a></li><li><a href="../../publications/">Publications</a></li><li><a href="../../projects/" class="active">Projects</a></li><li><a href="../../cv/">CV</a></li><li><a href="../../portfolio/">Portfolio</a></li><li><a href="../../papers-i-like/">Papers I Like</a></li><li><a href="../../project-ideas/">Project Ideas</a></li></ul>
+      <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+      <button class="icon-btn menu-btn" id="menu-toggle" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</nav>
+<main class="container">
+<header class="post-header">
+  <h1 class="post-title">Compact Actuators for Legged &amp; Humanoid Robots</h1>
+  <p class="post-description">Automated design of internal planetary and Wolfrom actuators, a metal humanoid-joint actuator and a monoped test bench</p>
+</header>
+<article>
+<h2>Research Internship</h2>
+<p class="meta-line"><strong>Stochastic Robotics Lab, IISc Bengaluru</strong> | Prof. Shishir N. Y. Kolathaya | May 2026 – Present</p>
+<p>Legged and humanoid robots need actuators that pack high torque into a small, light package. My internship tackles this end to end: a framework that designs actuators with the gearbox embedded inside the motor, a metal actuator built for demanding humanoid joints, and a monoped rig to prove the designs on hardware.</p>
+<div class="stats"><div class="stat"><b>150+</b><span>CAD parameters automated</span></div><div class="stat"><b>4</b><span>gearbox families</span></div><div class="stat"><b>Inrunner + Outrunner</b><span>frameless BLDC motors</span></div></div>
+<h2>Automated Actuator Design Framework</h2>
+<ul><li>Designs <strong>internal planetary (single, compound, dual-stage)</strong> and <strong>Wolfrom (WPG)</strong> gearboxes that sit inside the stator of frameless inrunner and outrunner BLDC motors, maximizing torque density in minimal axial width</li><li>Replaces heuristic sizing with a <strong>math-driven optimizer</strong>: geometric and assembly constraints, the <strong>Modified Lewis</strong> gear-strength model and a weighted mass–width–efficiency cost function pick the optimal actuator for any target gear ratio and motor</li><li>Pushes every optimized design straight into <strong>parametric CAD through the Onshape API</strong>, controlling 150+ parameters so each optimized actuator is immediately ready to print</li></ul>
+<h2>Metal Dual-Stage Inrunner Actuator</h2>
+<p>Humanoid joints hold high torques for long periods, so motors overheat long before gears fail. Inrunner motors shed heat better than outrunners, so I am designing and manufacturing a <strong>metal dual-stage inrunner planetary actuator</strong> that turns the optimized geometry into a high-torque, thermally robust joint.</p>
+<h2>Monoped Test Bench</h2>
+<ul><li><strong>Chain-driven sandwich-leg</strong> layout: the leg sits between the thigh and shank actuators, keeping leg inertia low and sparing the thigh actuator from extra load</li><li>Constrained to vertical motion for <strong>repeatable jumping and impact tests</strong> of different actuators</li><li>A modular <strong>radial quick-swap coupling</strong> exchanges actuators without disassembling the leg</li></ul>
+<h2>Skills &amp; Tools</h2>
+<p>Python, Onshape API, gear design, constrained optimization, mechanism design, DFM for 3D printing and machining</p>
+<h2>Gallery</h2>
+<div class="gallery"><figure class="cad"><img src="../../assets/img/projects/compact-actuators/6.jpg" alt="Dual-stage internal planetary actuator (section view)" data-ph="Image" loading="lazy"><figcaption>Dual-stage internal planetary actuator (section view)</figcaption></figure><figure class="cad"><img src="../../assets/img/projects/compact-actuators/5.jpg" alt="Dual-stage internal planetary design iteration" data-ph="Image" loading="lazy"><figcaption>Dual-stage internal planetary design iteration</figcaption></figure><figure class="cad"><img src="../../assets/img/projects/compact-actuators/3.jpg" alt="Single-stage gearbox inside the bearing, RO80 motor, 6:1, metal" data-ph="Image" loading="lazy"><figcaption>Single-stage gearbox inside the bearing, RO80 motor, 6:1, metal</figcaption></figure><figure class="cad"><img src="../../assets/img/projects/compact-actuators/4.jpg" alt="Internal planetary actuator with the gearbox inside the stator" data-ph="Image" loading="lazy"><figcaption>Internal planetary actuator with the gearbox inside the stator</figcaption></figure><figure class="cad"><img src="../../assets/img/projects/compact-actuators/1.jpg" alt="Internal single-stage planetary: dependent configuration" data-ph="Image" loading="lazy"><figcaption>Internal single-stage planetary: dependent configuration</figcaption></figure><figure class="cad"><img src="../../assets/img/projects/compact-actuators/2.jpg" alt="Internal single-stage planetary: independent configuration" data-ph="Image" loading="lazy"><figcaption>Internal single-stage planetary: independent configuration</figcaption></figure><figure class="cad"><img src="../../assets/img/projects/compact-actuators/7.jpg" alt="Monoped test bench with sandwich leg" data-ph="Image" loading="lazy"><figcaption>Monoped test bench with sandwich leg</figcaption></figure></div>
+<a class="back-link" href="../">← Back to all projects</a>
+</article>
+</main>
+<footer><div class="container">© Copyright <span id="year">2026</span> Mahiraj Seervi.</div></footer>
+</body>
+</html>
